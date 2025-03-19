@@ -9,7 +9,7 @@
 	<input type="hidden" name="id" value="<?php echo $record['id'] ?>">
       <div class="form-group">
         <div class="input-container">
-            <input type="text" class="form-control" id="title" name="title" required value="<?php echo $record['title'] ?>">
+            <input type="text" class="form-control input" id="title" name="title" required value="<?php echo $record['title'] ?>">
           <label for="title">Book Title</label>
           <div class="border-line"></div>
         </div>
